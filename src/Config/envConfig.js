@@ -6,7 +6,3 @@
 
 
 
-// export const url = "http://3.138.222.235:5000/";
-// export const getBaseUrl = () => {
-//   return url;
-// };
