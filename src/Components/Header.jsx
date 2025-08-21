@@ -4,10 +4,8 @@ import { IoMdPersonAdd } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 export default function Header() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [ setIsModalOpen] = useState(false);
 
-  const handleOpenModal = () => setIsModalOpen(true);
-  const handleCloseModal = () => setIsModalOpen(false);
 
   return (
     <>
@@ -25,12 +23,7 @@ export default function Header() {
             >
               <IoMdPersonAdd size={20} /> Create User
             </Link>
-            <Link
-              to={"/read-user"}
-              className="flex items-center gap-2 hover:text-gray-200 transition"
-            >
-              <AiOutlineUser size={20} /> Read User
-            </Link>
+         
           </nav>
         </div>
       </header>
