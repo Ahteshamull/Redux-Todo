@@ -11,7 +11,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<User />} />
-        
+
         <Route path="/create-user" element={<CreateUser />} />
         <Route path="/edit-user/:id" element={<UpdateUser />} />
       </Routes>
